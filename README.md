@@ -6,12 +6,15 @@
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- API website: https://api-sports.io/
 
-API website: https://www.api-football.com/
+- API-FOOTBAL Documentation: https://api-sports.io/documentation/football/v3
 
-You can register a new API key in [rapidapi](https://rapidapi.com/api-sports/api/api-football-beta/pricing) or directly on our [dashboard](https://dashboard.api-football.com/register). 
+Register here to get a new API Key: [API-SPORTS](https://dashboard.api-football.com/)
 
+Access your API key: https://dashboard.api-football.com/profile?access
+
+Then put your API Key in lib/services/soccer.dart:
 
 ``` dart
   static const headers = {
@@ -19,12 +22,3 @@ You can register a new API key in [rapidapi](https://rapidapi.com/api-sports/api
     'x-rapidapi-key': "YOUR_API_KEY"
   };
 ```
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
